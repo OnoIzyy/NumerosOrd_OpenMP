@@ -44,7 +44,7 @@
    {
     printf("%d , ", num[i]);
    }
-   printf("Tempo de execução: %f segundos\n", end - start);
+   printf("\nTempo de execucao: %f segundos\n", end - start);
 
    free(count); // liberando a memoria que foi ocupada 
    return 0;
